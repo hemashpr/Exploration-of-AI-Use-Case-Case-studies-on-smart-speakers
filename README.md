@@ -10,6 +10,8 @@ Smart speakers are voice-controlled devices that use Artificial Intelligence (AI
 
 Speech Recognition converts spoken words into text. NLP interprets the meaning and intent of the command. Machine learning helps improve recognition and personalize responses. The voice assistant processes the request, accesses the required service, and generates a response using speech synthesis.
 
+![Uploading image.png…]()
+
 ## WORKING PRINCIPLE
 
 1. The device detects its wake word or activation signal.
