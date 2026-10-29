@@ -32,7 +32,8 @@ Speech Recognition converts spoken words into text. NLP interprets the meaning a
 
 The exact sequence varies by product. Some processing occurs on the device, while other functions may require cloud services and an internet connection.
 
-![Working principle of a smart speaker](working-principle.svg)
+!<img width="827" height="327" alt="image" src="https://github.com/user-attachments/assets/cfef855e-7f5d-4608-8106-ab4f7c27baaf" />
+
 
 ## RESULT
 
