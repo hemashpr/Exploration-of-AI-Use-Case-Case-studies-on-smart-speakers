@@ -12,17 +12,25 @@ Speech Recognition converts spoken words into text. NLP interprets the meaning a
 
 <img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/8c0cc976-d9cb-4cb2-985c-aa02c232f07e" />
 
-
 ## WORKING PRINCIPLE
 
-1. The device detects its wake word or activation signal.
-2. It captures the user's spoken command.
-3. Speech recognition converts the audio into text.
-4. NLP identifies the user's intent and relevant information.
-5. The voice assistant processes the request and performs the required action, such as answering a question or playing music.
-6. The system generates a response and uses text-to-speech to deliver it through the speaker.
+1. **Wake-word detection:** The smart speaker listens for a configured wake word, such as “Alexa” or “Hey Google.” Wake-word detection commonly runs on the device so it can recognize the activation phrase before processing a full request.
 
-**Flow:** Voice input → Wake-word detection → Speech recognition → NLP and intent processing → Action → Spoken response.
+2. **Audio capture:** After activation, the microphone records the user's command. Audio processing may reduce background noise and improve the clarity of speech before it is analysed.
+
+3. **Speech recognition:** Automatic Speech Recognition (ASR) converts the recorded speech into text. The accuracy depends on factors such as pronunciation, background noise, and the quality of the speech-recognition system.
+
+4. **Natural Language Processing:** NLP analyses the recognized text to determine the user's intent and identify important details. For example, in “Play jazz music,” the intent is music playback and the requested category is jazz.
+
+5. **Request processing:** The voice assistant selects the appropriate action, such as answering a question, setting a timer, or playing music. Depending on the device and task, processing may take place locally or use an internet-connected service.
+
+6. **Response generation:** The assistant obtains the required information or completes the requested action, then prepares a suitable response. Some requests produce spoken answers, while others trigger an action without requiring a lengthy verbal reply.
+
+7. **Text-to-speech and playback:** Text-to-Speech (TTS) converts the response into audio, which is played through the speaker. The system then waits for another wake word or continues the interaction if follow-up conversation is supported.
+
+**Flow:** Voice input → Wake-word detection → Audio capture → Speech recognition → NLP and intent processing → Action or information retrieval → Text-to-speech → Spoken response.
+
+The exact sequence varies by product. Some processing occurs on the device, while other functions may require cloud services and an internet connection.
 
 ![Working principle of a smart speaker](working-principle.svg)
 
