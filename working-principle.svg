@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="680" viewBox="0 0 1600 680">
+<rect width="1600" height="680" fill="#fff"/>
+<text x="800" y="48" text-anchor="middle" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#182230">WORKING PRINCIPLE OF A SMART SPEAKER</text>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#344054"/></marker></defs>
+<g font-family="Arial,sans-serif" fill="#182230" text-anchor="middle">
+<rect x="35" y="115" width="225" height="160" rx="14" fill="#eef6ff" stroke="#77b7ff" stroke-width="2"/>
+<text x="147" y="151" font-size="20" font-weight="700">1. Audio Capture</text><text x="147" y="183" font-size="17">Microphone captures</text><text x="147" y="208" font-size="17">the user's voice</text><text x="147" y="243" font-size="15" fill="#475467">Wake-word detection</text>
+<rect x="300" y="115" width="225" height="160" rx="14" fill="#fff7df" stroke="#edc45a" stroke-width="2"/>
+<text x="412" y="151" font-size="20" font-weight="700">2. Speech Recognition</text><text x="412" y="188" font-size="17">ASR converts audio</text><text x="412" y="213" font-size="17">into text</text><text x="412" y="246" font-size="15" fill="#475467">Spoken words → text</text>
+<rect x="565" y="115" width="225" height="160" rx="14" fill="#eef9ef" stroke="#83cb91" stroke-width="2"/>
+<text x="677" y="151" font-size="20" font-weight="700">3. Language Understanding</text><text x="677" y="188" font-size="17">NLP identifies intent</text><text x="677" y="213" font-size="17">and key details</text><text x="677" y="246" font-size="15" fill="#475467">“Play jazz music”</text>
+<rect x="830" y="115" width="255" height="160" rx="14" fill="#fff0ef" stroke="#f39b96" stroke-width="2"/>
+<text x="957" y="151" font-size="20" font-weight="700">4. Processing</text><text x="957" y="188" font-size="17">Assistant selects action</text><text x="957" y="213" font-size="17">and accesses services</text><text x="957" y="246" font-size="15" fill="#475467">Local or cloud processing</text>
+<rect x="1125" y="115" width="225" height="160" rx="14" fill="#f3efff" stroke="#b2a0f7" stroke-width="2"/>
+<text x="1237" y="151" font-size="20" font-weight="700">5. Response Generation</text><text x="1237" y="188" font-size="17">Text-to-speech (TTS)</text><text x="1237" y="213" font-size="17">creates spoken output</text><text x="1237" y="246" font-size="15" fill="#475467">Text → audio</text>
+<rect x="1380" y="115" width="185" height="160" rx="14" fill="#eef6ff" stroke="#77b7ff" stroke-width="2"/>
+<text x="1472" y="151" font-size="20" font-weight="700">6. Playback</text><text x="1472" y="188" font-size="17">Speaker plays</text><text x="1472" y="213" font-size="17">the response</text><text x="1472" y="246" font-size="15" fill="#475467">Audio output</text>
+</g>
+<g stroke="#344054" stroke-width="3" fill="none" marker-end="url(#arrow)"><path d="M260 195 H294"/><path d="M525 195 H559"/><path d="M790 195 H824"/><path d="M1085 195 H1119"/><path d="M1350 195 H1374"/></g>
+<rect x="155" y="370" width="1290" height="190" rx="18" fill="#f8fafc" stroke="#d0d5dd" stroke-width="2"/>
+<g font-family="Arial,sans-serif" fill="#182230" text-anchor="middle"><text x="800" y="412" font-size="24" font-weight="700">Example: “Play jazz music”</text><text x="800" y="454" font-size="19">The microphone captures the command → AI recognizes the words and intent</text><text x="800" y="486" font-size="19">→ the assistant requests music playback → the speaker plays the selected audio.</text><text x="800" y="528" font-size="16" fill="#475467">Some processing runs on the device; other functions may require an internet connection.</text></g>
+</svg>
