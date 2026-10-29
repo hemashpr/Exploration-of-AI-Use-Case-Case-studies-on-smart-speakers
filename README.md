@@ -21,6 +21,8 @@ Speech Recognition converts spoken words into text. NLP interprets the meaning a
 
 **Flow:** Voice input → Wake-word detection → Speech recognition → NLP and intent processing → Action → Spoken response.
 
+![Working principle of a smart speaker](working-principle.svg)
+
 ## RESULT
 
 The study demonstrates how AI technologies enable smart speakers to recognize voice commands, understand user intent, and provide responses or perform tasks through voice interaction.
